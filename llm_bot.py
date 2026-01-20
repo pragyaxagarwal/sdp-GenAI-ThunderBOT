@@ -4,8 +4,9 @@ from groq import Groq
 st.set_page_config("Thunder Content Generator", layout="wide")
 st.image(
     "https://images.pexels.com/photos/1114690/pexels-photo-1114690.jpeg",
-    use_column_width=True
+    width=600
 )
+
 
 st.title("⚡ Thunder Content Generator")
 
