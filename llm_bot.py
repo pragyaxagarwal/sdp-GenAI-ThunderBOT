@@ -2,6 +2,11 @@ import streamlit as st
 from groq import Groq
 
 st.set_page_config("Thunder Content Generator", layout="wide")
+st.image(
+    "https://images.pexels.com/photos/1114690/pexels-photo-1114690.jpeg",
+    use_column_width=True
+)
+
 st.title("⚡ Thunder Content Generator")
 
 client = Groq(api_key=st.secrets["GROQ_API_KEY"])
